@@ -38,7 +38,26 @@
   src: url(./fonts/Rubik-Bold.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "krylon";
+  src: url("./fonts/Krylon-Regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "lolBold";
+  src: url(./fonts/BeaufortforLOL-Bold.ttf)format("truetype");
+}
+@font-face {
+  font-family: "lolNormal";
+  src: url(./fonts/BeaufortforLOL-Regular.ttf)format("truetype");
+}
+@font-face {
+  font-family: "lolLight";
+  src: url(./fonts/BeaufortforLOL-Light.ttf)format("truetype");
+}
 
+.App{
+  background-color: #1c1a1c;
+}
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 1280px) {
 /* Header */
@@ -51,6 +70,8 @@ header {
 
 #logo {
   margin-right: auto;
+  width: 5%;
+  height: auto;
 }
 
 header li {
@@ -61,14 +82,14 @@ header li {
 
 header a {
   text-decoration: none;
-  color: #555;
+  color: #00cb76;
   transition: all 0.3s ease 0s;
   font-size: 1.8rem;
-  font-family: 'sourceSansLight';
+  font-family: 'lolRegular';
 }
 
   header a:hover {
-    color: #6C63FF;
+    color: #2affa6;
   }
 
   /* LandingPage */
@@ -76,7 +97,7 @@ header a {
   .main-container{
     display: flex;
     flex-direction: row;
-    height: 60vh;
+    height: 80vh;
 
   }
   
@@ -91,7 +112,7 @@ header a {
     margin: 5rem 5rem 5rem 5rem;
     font-family: 'sourceSansLight';
     font-size: 3rem;
-  
+    color: #00cb76;
   }
 
   .main-h{
@@ -101,6 +122,7 @@ header a {
   .main-p{
     font-size: 1.5rem;
     margin: 2rem 0 2rem 0;
+    font-family: "lolLight";
   }
   
   .main-image-zone{
@@ -110,10 +132,9 @@ header a {
   
   .main-image{
     width: 100%;
-    max-width: 40rem;
+    max-width: 100rem;
     height: auto;
     align-self: center;
-    margin: 5rem 5rem 5rem 5rem;
   }
   
   .main-buttons{
@@ -132,8 +153,8 @@ header a {
     border: 0;
     outline: 0;
     font-size: 1.125rem;
-    background: #484C69;
-    color: #fff;
+    background: #00cb76;
+    color: #1C1A1C;
   }
   
   svg {
@@ -166,9 +187,8 @@ header a {
     height: 15vh;
     align-items: center;
     font-family: "sourceSansBold";
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #ffffff, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #ffffff, #ebeef0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #151415;  /* fallback for old browsers */
+    
 
    }
    
@@ -200,7 +220,7 @@ header a {
    .quantity {
     font-size: 2rem;
     font-weight: 600;
-    color: #444444;
+    color: #00CB76;
    }
    
    .text {
@@ -210,7 +230,7 @@ header a {
    }
    
    .text {
-    color: #444444;
+    color: #00CB76;
    }
 
    .logos{
@@ -231,15 +251,17 @@ header a {
     margin: 0 1rem 0 1rem;
     display: flex;
     flex-direction: column;
+    color: #2affa6;
+
   }
   .teams-p1{
     
-    font-family: "loves";
+    font-family: "lolLight";
     font-size: 1.4rem;
   }
   .teams-p2{
     
-    font-family: "sourceSansLight";
+    font-family: "lolLight";
     font-size: 1.5rem;
     text-align: justify;
   }
@@ -292,7 +314,7 @@ header a {
     font-size: 3rem;
   }
   .author-team{
-    font-family: "sourceSansLight";
+    font-family: "lolLight";
     font-size: 1.5rem;
     text-align: justify;
   }
@@ -381,8 +403,8 @@ header a {
     flex-direction: row;
     width: 100%;
     flex-wrap: wrap;
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: linear-gradient(to left, #ffffff, #ebeef0);
+    background: #1C1A1C;  /* fallback for old browsers */
+    color: #2AFFA6;
   }
   .features-container1{
     width: 100%;
@@ -405,10 +427,10 @@ header a {
   }
 
   .features-h{
-    font-family: "loves";
+    font-family: "lolBold";
   }
   .features-p{
-    font-family: "sourceSansLight";
+    font-family: "lolLight";
     font-size: 1.5rem;
   }
 
@@ -442,7 +464,7 @@ header a {
     flex-direction: row;
     align-items: center;
     gap: 5rem;
-    background-color: #E4E5F1;
+    background-color: #1C1A1C;
    }
 
    .contact-text{
@@ -452,6 +474,7 @@ header a {
     width: 50%;
     gap: 2rem;
     justify-self: center;
+    color: #2AFFA6;
 
    }
    .contact-image{
@@ -460,17 +483,17 @@ header a {
     height: auto;
    }
   .contact-header{
-    font-family: "loves";
-    margin-right: 3rem;
+    font-family: "lolBold";
+    margin-right: 6.5rem;
   }
   .contact-p{
-    font-family: "louis";
+    font-family: "lolLight";
     font-size: 1.5rem;
   }
 
   .cssbuttons-io-button {
-    background: #484C69;
-    color: white;
+    background: #2AFFA6;
+    color: #1C1A1C;
     font-family: inherit;
     padding: 0.35em;
     padding-left: 1.2em;
@@ -481,16 +504,18 @@ header a {
     letter-spacing: 0.05em;
     display: flex;
     align-items: center;
-    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    box-shadow: inset 0 0 1.6em -0.6em #278844;
     overflow: hidden;
     position: relative;
     height: 2.8em;
-    padding-right: 3.3em;
-    margin-right: 13rem;
+    width: 12rem;
+    font-family: "lolBold";
   }
-  
+  .button-contact{
+    width: 60%;
+  }
   .cssbuttons-io-button .icon {
-    background: white;
+    background: #2AFFA6;
     margin-left: 1em;
     position: absolute;
     display: flex;
@@ -499,7 +524,7 @@ header a {
     height: 2.2em;
     width: 2.2em;
     border-radius: 0.7em;
-    box-shadow: 0.1em 0.1em 0.6em 0.2em #686ea0;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #148f16;
     right: 0.3em;
     transition: all 0.3s;
   }
@@ -511,7 +536,7 @@ header a {
   .cssbuttons-io-button .icon svg {
     width: 1.1em;
     transition: transform 0.3s;
-    color: #7b52b9;
+    color: #1C1A1C;
   }
   
   .cssbuttons-io-button:hover .icon svg {
@@ -528,7 +553,7 @@ header a {
     width: 100%;
     position: relative;
     height: auto;
-    background-color: #4D4C72;
+    background-color: #151315;
   }
   .footer-logo{
     padding-top: 1rem;
@@ -551,7 +576,7 @@ header a {
     font-size: 12px;
     line-height: 17px;
     padding: 20px 0px 5px 0px;
-    color: rgba(255, 255, 255, 0.685);
+    color: #04ad67;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.250em;
@@ -562,7 +587,7 @@ header a {
     padding: 0;
   }
   .footer .col ul li {
-    color: #d6d1d1;
+    color: #33F9A6;
     font-size: 14px;
     font-family: inherit;
     font-weight: bold;
@@ -634,6 +659,244 @@ header a {
     background: #bdc3c7;  /* fallback for old browsers */
     background: linear-gradient(to left, #ffffff, #ebeef0);
   }
+  .features-1{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    width: 99%;
+    height: 50vh;
+  }
+  .features1-item{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 25%;
+    justify-content: center;
+  }
+  .features1-icon{
+    width: 3rem;
+  }
+  .features1-inside{
+    display: flex;
+    gap:1rem;
+    flex-wrap: wrap;
+  }
+  .features1-inside h1{
+    font-family: "lolBold";
+    font-size: 2rem;
+    color: #00CB76;
+  }
+  .features1-item p{
+    font-family: "lolLight";
+    font-size: 1.5rem;
+    color: #00CB76;
+  }
+  .features2{
+    display: flex;
+    width: 99%;
+    height: 60vh;
+    
+  }
+  .features2-text{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    color: #00CB76;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .features2-text h1{
+    font-family: "lolBold";
+    width: 60%;
+    font-size: 3rem;
+  }
+  .features2-text p{
+    font-family: "lolRegular";
+    width: 60%;
+    font-size: 1.2rem;
+  }
+  .features2-text li{
+    font-family: "lolLight";
+  }
+  .features2-img-section{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+  }
+  .features2-img{
+    width: 80%;
+    height: auto;
+    border-radius: 12px;
+    max-width: 60rem;
+  }
+  .features2-2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 8rem;
+  }
+  .reviews-container{
+    margin-top: 2rem;
+  }
+  .card2 {
+    width: 20rem;
+    height: 30rem;
+    background: #151315;
+    padding: 2rem 1.5rem;
+    transition: box-shadow .3s ease, transform .2s ease;
+   }
+   
+   .card2-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s ease, opacity .2s ease;
+   }
+   
+   /*Image*/
+   .card2-avatar {
+    --size: 60px;
+    background: linear-gradient(to top, #64e1ab 0%, #08b96c 100%);
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    transition: transform .2s ease;
+    margin-bottom: 1rem;
+   }
+   
+   
+   /*Card footer*/
+   .card2-social {
+    transform: translateY(200%);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    opacity: 0;
+    transition: transform .2s ease, opacity .2s ease;
+   }
+   
+   .card2-social__item {
+    list-style: none;
+   }
+   
+   .card2-social__item svg {
+    display: block;
+    height: 18px;
+    width: 18px;
+    fill: #2CEA99;
+    cursor: pointer;
+    transition: fill 0.2s ease ,transform 0.2s ease;
+   }
+   
+   /*Text*/
+   .card2-title {
+    color: #2CEA99;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    font-family: "lolRegular";
+   }
+   
+   .card2-subtitle {
+    color: #2CEA99;
+    font-size: 1rem;
+    font-family: "lolLight";
+   }
+   
+   /*Hover*/
+   .card2:hover {
+    box-shadow: 0 2px 5px #2CEA99;
+   }
+   
+   .card2:hover .card2-info {
+    transform: translateY(-5%);
+   }
+   
+   .card2:hover .card2-social {
+    transform: translateY(100%);
+    opacity: 1;
+   }
+   
+   .card2-social__item svg:hover {
+    fill: #2CEA99;
+    transform: scale(1.1);
+   }
+   
+   .card2-avatar:hover {
+    transform: scale(1.1);
+   }
+   .reviews-container{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 60vh;
+   }
+
+   @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+
+.box{
+   width: 50rem;
+   height: 25rem;
+   margin: 100px auto;
+   background: #151315;
+   border-radius: 7px;
+   box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+
+}
+
+.box .heading{
+   background: #0c0b0c;
+   border-radius: 7px 7px 0px 0px;
+   padding: 10px;
+   color: #00CB76;
+   text-align: center;
+   font-family: "lolBold";
+   font-size: 2rem;
+}
+.textH{
+  color: #00CB76;
+  font-size: 1.5rem;
+  
+}
+.textP{
+  color: #00CB76;
+  font-family: "lolLight";
+  font-size: 1.2rem;
+}
+.faqs{
+   padding: 0px 20px 20px;
+   display: flex;
+   flex-direction: column;
+}
+
+::-webkit-details-marker{
+   float: right;
+   margin-top: 3px;
+}
+
+details{
+   background: #232023;
+   padding: 10px 20px;
+   border-radius: 7px;
+   margin-top: 20px;
+   font-family: "Rubik";
+   font-size: 14px;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+
+details summary{
+   outline: none;
+}
+.nav-link{
+  text-decoration: none;
+}
 }
 
 /* ---------------- Media Queries for Mobile settings ------------ */
@@ -650,6 +913,7 @@ header {
 
 #logo {
   margin-right: auto;
+  width: 3rem;
 }
 
 header li {
@@ -660,10 +924,10 @@ header li {
 
 header a {
   text-decoration: none;
-  color: #555;
+  color: #00CB76;
   transition: all 0.3s ease 0s;
   font-size: 1.8rem;
-  font-family: 'sourceSansLight';
+  font-family: 'lolLight';
 }
 
 /* Hamburger menu */
@@ -679,7 +943,7 @@ header a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: black;
+  background-color: #00CB76;
 }
 
 .hamburger.active .bar:nth-child(2){ 
@@ -702,7 +966,7 @@ header a {
   width: 100%;
   text-align:center;
   transition: 0.3s;
-  background: white;
+  background: #1C1A1C;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
@@ -715,11 +979,11 @@ header a {
 }
 
 .nav-link.hover{
-  color: #D9B311
+  color: #52ffb7;
 }
 
   header a:hover {
-    color: #6C63FF;
+    color: #86ffcd;
   }
 
   /* LandingPage */
@@ -741,13 +1005,15 @@ header a {
   
   .main-text{
     margin: 0rem 2rem 0rem 2rem;
-    font-family: 'sourceSansLight';
+    font-family: 'lolLight';
+    color: #00CB76;
   }
   
   .main-h{
     text-align: center;
     font-family: "sourceSansBold";
     font-size: 4rem;
+    color: #00CB76;
   }
 
   .main-p{
@@ -757,8 +1023,10 @@ header a {
   }
   
   .main-image-zone{
+    margin-top: 2rem;
     display: flex;
-    width: 100vw;
+    width: 100%;
+    height: auto;
     justify-content: center;
 
   }
@@ -786,8 +1054,8 @@ header a {
     border: 0;
     outline: 0;
     font-size: 1rem;
-    background: #484C69;
-    color: #fff;
+    background: #00CB76;
+    color: #1C1A1C;
   }
   
   svg {
@@ -821,10 +1089,8 @@ header a {
     flex-direction: column;
     height: 65vh;
     align-items: center;
-    font-family: "sourceSansBold";
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #ffffff, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #ffffff, #ebeef0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "lolBold";
+    background: #151315;  /* fallback for old browsers */
 
    }
    
@@ -855,7 +1121,7 @@ header a {
    .quantity {
     font-size: 2rem;
     font-weight: 600;
-    color: #444444;
+    color: #00CB76;
    }
    
    .text {
@@ -865,7 +1131,7 @@ header a {
    }
    
    .text {
-    color: #444444;
+    color: #00CB76;
    }
 
    .logos{
@@ -1121,7 +1387,7 @@ header a {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    background-color: #E4E5F1;
+    background-color: #1C1A1C;
    }
 
    .contact-text{
@@ -1132,6 +1398,7 @@ header a {
     justify-self: center;
     width: 70%;
     text-align: center;
+    color: #00CB76;
    }
    .contact-image{
     width: 70%;
@@ -1148,8 +1415,8 @@ header a {
   }
 
   .cssbuttons-io-button {
-    background: #484C69;
-    color: white;
+    background: #00CB76;
+    color: #1C1A1C;
     font-family: inherit;
     padding: 0.35em;
     padding-left: 1.2em;
@@ -1160,7 +1427,7 @@ header a {
     border: none;
     display: flex;
     align-items: center;
-    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    box-shadow: inset 0 0 1.6em -0.6em #066b41;
     overflow: hidden;
     position: relative;
     height: 2.8em;
@@ -1168,7 +1435,7 @@ header a {
   }
   
   .cssbuttons-io-button .icon {
-    background: white;
+    background: #00CB76;
     margin-left: 1em;
     position: absolute;
     display: flex;
@@ -1177,7 +1444,7 @@ header a {
     height: 2.2em;
     width: 2.2em;
     border-radius: 0.7em;
-    box-shadow: 0.1em 0.1em 0.6em 0.2em #686ea0;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #036e40;
     right: 0.3em;
     transition: all 0.3s;
   }
@@ -1189,7 +1456,7 @@ header a {
   .cssbuttons-io-button .icon svg {
     width: 1.1em;
     transition: transform 0.3s;
-    color: #7b52b9;
+    color: #1C1A1C;
   }
   
   .cssbuttons-io-button:hover .icon svg {
@@ -1205,7 +1472,7 @@ header a {
       width: 100%;
       position: relative;
       height: auto;
-      background-color: #4F5377;
+      background-color: #151315;
     }
     .footer-logo{
       padding-top: 1rem;
@@ -1228,7 +1495,7 @@ header a {
       font-size: 12px;
       line-height: 17px;
       padding: 20px 0px 5px 0px;
-      color: rgba(255, 255, 255, 0.685);
+      color: #04ad67;
       font-weight: normal;
       text-transform: uppercase;
       letter-spacing: 0.250em;
@@ -1239,7 +1506,7 @@ header a {
       padding: 0;
     }
     .footer .col ul li {
-      color: #d6d1d1;
+      color: #00C673;
       font-size: 14px;
       font-family: inherit;
       font-weight: bold;
@@ -1301,6 +1568,245 @@ header a {
         width: 100%;
       }
     }
+    .features-1{
+      display: flex;
+      justify-content: center;
+      width: 99%;
+      height: 100vh;
+      flex-wrap: wrap;
+    }
+    .features1-item{
+      display: flex;
+      flex-direction: column;
+      gap:1rem;
+      width: 80%;
+      justify-content: center;
+    }
+    .features1-icon{
+      width: 2rem;
+    }
+    .features1-inside{
+      display: flex;
+      gap:1rem;
+      flex-wrap: wrap;
+    }
+    .features1-inside h1{
+      font-family: "lolBold";
+      font-size: 1.5rem;
+      color: #00CB76;
+    }
+    .features1-item p{
+      font-family: "lolLight";
+      font-size: 1.2rem;
+      color: #00CB76;
+    }
+    .features2{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .features2-text{
+      width: 99%;
+      display: flex;
+      flex-direction: column;
+      color: #00CB76;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+    .features2-text h1{
+      font-family: "lolBold";
+      width: 80%;
+      font-size: 1rem;
+    }
+    .features2-text p{
+      font-family: "lolRegular";
+      width: 80%;
+      font-size: 1.2rem;
+    }
+    .features2-text li{
+      font-family: "lolLight";
+    }
+    .features2-img-section{
+      display: flex;
+      justify-content: center;
+      width: 99%;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .features2-img{
+      width: 80%;
+      height: auto;
+      border-radius: 12px;
+      max-width: 60rem;
+    }
+    .features2-2{
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top: 8rem;
+    }
+    .reviews-container{
+      display: flex;
+      flex-direction: column;
+      margin-top: 14rem;
+      margin-bottom: 14rem;
+    }
+    .card2 {
+      width: 20rem;
+      background: #151315;
+      padding: 2rem 1.5rem;
+      transition: box-shadow .3s ease, transform .2s ease;
+     }
+     
+     .card2-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: transform .2s ease, opacity .2s ease;
+     }
+     
+     /*Image*/
+     .card2-avatar {
+      --size: 60px;
+      background: linear-gradient(to top, #64e1ab 0%, #08b96c 100%);
+      width: var(--size);
+      height: var(--size);
+      border-radius: 50%;
+      transition: transform .2s ease;
+      margin-bottom: 1rem;
+     }
+     
+     
+     /*Card footer*/
+     .card2-social {
+      transform: translateY(200%);
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      opacity: 0;
+      transition: transform .2s ease, opacity .2s ease;
+     }
+     
+     .card2-social__item {
+      list-style: none;
+     }
+     
+     .card2-social__item svg {
+      display: block;
+      height: 18px;
+      width: 18px;
+      fill: #2CEA99;
+      cursor: pointer;
+      transition: fill 0.2s ease ,transform 0.2s ease;
+     }
+     
+     /*Text*/
+     .card2-title {
+      color: #2CEA99;
+      font-size: 1.5rem;
+      font-weight: 600;
+      line-height: 2rem;
+      font-family: "lolRegular";
+     }
+     
+     .card2-subtitle {
+      color: #2CEA99;
+      font-size: 1rem;
+      font-family: "lolLight";
+     }
+     
+     /*Hover*/
+     .card2:hover {
+      box-shadow: 0 2px 5px #2CEA99;
+     }
+     
+     .card2:hover .card2-info {
+      transform: translateY(-5%);
+     }
+     
+     .card2:hover .card2-social {
+      transform: translateY(100%);
+      opacity: 1;
+     }
+     
+     .card2-social__item svg:hover {
+      fill: #2CEA99;
+      transform: scale(1.1);
+     }
+     
+     .card2-avatar:hover {
+      transform: scale(1.1);
+     }
+     .reviews-container{
+      display: flex;
+      gap: 3rem;
+      justify-content: center;
+      align-items: center;
+      width: 99%;
+      height: 60vh;
+     }
+  
+     @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+  
+  
+  
+  .box{
+     width: 20rem;
+     height: 20rem;
+     margin: 100px auto;
+     background: #151315;
+     border-radius: 7px;
+     box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+  
+  }
+  
+  .box .heading{
+     background: #0c0b0c;
+     border-radius: 7px 7px 0px 0px;
+     padding: 10px;
+     color: #00CB76;
+     text-align: center;
+     font-family: "lolBold";
+     font-size: 1.5rem;
+  }
+  .textH{
+    color: #00CB76;
+    font-size: 1.2rem;
+    
+  }
+  .textP{
+    color: #00CB76;
+    font-family: "lolLight";
+    font-size: 1.2rem;
+  }
+  .faqs{
+     padding: 0px 20px 20px;
+     display: flex;
+     flex-direction: column;
+  }
+  
+  ::-webkit-details-marker{
+     float: right;
+     margin-top: 3px;
+  }
+  
+  details{
+     background: #232023;
+     padding: 10px 20px;
+     border-radius: 7px;
+     margin-top: 20px;
+     font-family: "Rubik";
+     font-size: 14px;
+     letter-spacing: 1px;
+     cursor: pointer;
+  }
+  
+  details summary{
+     outline: none;
+  }
+  .button-contact{
+    width: 80%;
+  }
 }
 
 

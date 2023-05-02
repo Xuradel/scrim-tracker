@@ -20,16 +20,26 @@ function script() {
             navMenu.classList.remove("active");
         }))
 }
+const handleClick = (anchor) => () => {
+    const id = `${anchor}-section`;
+    const element = document.getElementById(id);
+    if (element) {
+        element.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+        });
+    }
+};
 
 const Header = () => {
 
     const isMobile = useMediaQuery({ query: '(max-width: 1280px)' })
-    
+
     useEffect(() => {
-        if(isMobile){
+        if (isMobile) {
             script()
         }
-    },[])
+    }, [])
 
     return (
 
@@ -37,9 +47,10 @@ const Header = () => {
             <img src={require("../images/logo.png")} alt="logo" id="logo"></img>
             <nav>
                 <ul className="nav-menu">
-                    <li className='nav-item'><a href="#" className='nav-link'>About</a></li>
-                    <li className='nav-item'><a href="#" className='nav-link'>Services</a></li>
-                    <li className='nav-item'><a href="#" className='nav-link'>Contact</a></li>
+                    <li className='nav-item'><a href="#featuresPage" className='nav-link' onClick={handleClick("features")}>Features</a></li>
+                    <li className='nav-item'><a href="#reviewsPage" className='nav-link' onClick={handleClick("reviews")}>Reviews</a></li>
+                    <li className='nav-item'><a href="#FAQpage" className='nav-link' onClick={handleClick("faq")}>FAQ</a></li>
+                    <li className='nav-item'><a href="#contactPage" className='nav-link' onClick={handleClick("contact")}>Contact</a></li>
                 </ul>
                 <div className="hamburger">
                     <span className="bar"></span>
