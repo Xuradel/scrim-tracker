@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/scrim-tracker/static/css/main.590f580c.css",
-    "main.js": "/scrim-tracker/static/js/main.774a0d5a.js",
+    "main.css": "/scrim-tracker/static/css/main.e210793b.css",
+    "main.js": "/scrim-tracker/static/js/main.7d47b006.js",
     "static/media/hero-image.png": "/scrim-tracker/static/media/hero-image.a07da615965eb26219f3.png",
     "static/media/logo.png": "/scrim-tracker/static/media/logo.33c63d434f2a752baf51.png",
     "static/media/champ.png": "/scrim-tracker/static/media/champ.4c2e61c0dcaa2f115d07.png",
@@ -14,6 +14,7 @@
     "static/media/Rubik-Bold.ttf": "/scrim-tracker/static/media/Rubik-Bold.d62658f24eb7c7dc739e.ttf",
     "static/media/player.png": "/scrim-tracker/static/media/player.e9882f718e4b95ca0de9.png",
     "static/media/matchups.jpeg": "/scrim-tracker/static/media/matchups.b514b53b9342e0555fc6.jpeg",
+    "static/media/playerprofile.jpeg": "/scrim-tracker/static/media/playerprofile.a4ed2bf0f4d7bdd1dbd6.jpeg",
     "static/media/matchhistory.jpeg": "/scrim-tracker/static/media/matchhistory.f78c45f431ac435c53b7.jpeg",
     "static/media/championstats.jpeg": "/scrim-tracker/static/media/championstats.5c35723817fd8d8a3a3e.jpeg",
     "static/media/pickorder.jpeg": "/scrim-tracker/static/media/pickorder.06b2e67d3adc6951f18b.jpeg",
@@ -35,11 +36,11 @@
     "static/media/depth.png": "/scrim-tracker/static/media/depth.2ef4da9a9f4f255befbd.png",
     "static/media/saprissa.webp": "/scrim-tracker/static/media/saprissa.687b0202a59c61024ba4.webp",
     "index.html": "/scrim-tracker/index.html",
-    "main.590f580c.css.map": "/scrim-tracker/static/css/main.590f580c.css.map",
-    "main.774a0d5a.js.map": "/scrim-tracker/static/js/main.774a0d5a.js.map"
+    "main.e210793b.css.map": "/scrim-tracker/static/css/main.e210793b.css.map",
+    "main.7d47b006.js.map": "/scrim-tracker/static/js/main.7d47b006.js.map"
   },
   "entrypoints": [
-    "static/css/main.590f580c.css",
-    "static/js/main.774a0d5a.js"
+    "static/css/main.e210793b.css",
+    "static/js/main.7d47b006.js"
   ]
 }
