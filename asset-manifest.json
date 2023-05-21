@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/scrim-tracker/static/css/main.8c8b856d.css",
-    "main.js": "/scrim-tracker/static/js/main.4d46c137.js",
-    "static/media/hero-image.png": "/scrim-tracker/static/media/hero-image.a07da615965eb26219f3.png",
+    "main.css": "/scrim-tracker/static/css/main.c08513ae.css",
+    "main.js": "/scrim-tracker/static/js/main.68681649.js",
     "static/media/logo.png": "/scrim-tracker/static/media/logo.33c63d434f2a752baf51.png",
     "static/media/champ.png": "/scrim-tracker/static/media/champ.4c2e61c0dcaa2f115d07.png",
+    "static/media/faker.png": "/scrim-tracker/static/media/faker.fb7207027c6741298a18.png",
+    "static/media/coach1.png": "/scrim-tracker/static/media/coach1.6f1afec262e8b25927b8.png",
+    "static/media/coach2.png": "/scrim-tracker/static/media/coach2.fb3d57e9cf1a2481da70.png",
     "static/media/scrimtracker.jpeg": "/scrim-tracker/static/media/scrimtracker.8aefb1f4889b0de8cfc7.jpeg",
     "static/media/SourceSansPro-Bold.ttf": "/scrim-tracker/static/media/SourceSansPro-Bold.2dec2f24e3bdf2c6862e.ttf",
     "static/media/SourceSansPro-Light.ttf": "/scrim-tracker/static/media/SourceSansPro-Light.9bbfd7cb5e722de4b9f4.ttf",
@@ -27,11 +29,11 @@
     "static/media/Louis George Cafe Light.ttf": "/scrim-tracker/static/media/Louis George Cafe Light.39945fcd312e86adc356.ttf",
     "static/media/saprissa.webp": "/scrim-tracker/static/media/saprissa.687b0202a59c61024ba4.webp",
     "index.html": "/scrim-tracker/index.html",
-    "main.8c8b856d.css.map": "/scrim-tracker/static/css/main.8c8b856d.css.map",
-    "main.4d46c137.js.map": "/scrim-tracker/static/js/main.4d46c137.js.map"
+    "main.c08513ae.css.map": "/scrim-tracker/static/css/main.c08513ae.css.map",
+    "main.68681649.js.map": "/scrim-tracker/static/js/main.68681649.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c8b856d.css",
-    "static/js/main.4d46c137.js"
+    "static/css/main.c08513ae.css",
+    "static/js/main.68681649.js"
   ]
 }
