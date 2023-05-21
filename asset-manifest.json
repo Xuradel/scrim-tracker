@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/scrim-tracker/static/css/main.be2938bf.css",
+    "main.css": "/scrim-tracker/static/css/main.8c8b856d.css",
     "main.js": "/scrim-tracker/static/js/main.4d46c137.js",
     "static/media/hero-image.png": "/scrim-tracker/static/media/hero-image.a07da615965eb26219f3.png",
     "static/media/logo.png": "/scrim-tracker/static/media/logo.33c63d434f2a752baf51.png",
@@ -27,11 +27,11 @@
     "static/media/Louis George Cafe Light.ttf": "/scrim-tracker/static/media/Louis George Cafe Light.39945fcd312e86adc356.ttf",
     "static/media/saprissa.webp": "/scrim-tracker/static/media/saprissa.687b0202a59c61024ba4.webp",
     "index.html": "/scrim-tracker/index.html",
-    "main.be2938bf.css.map": "/scrim-tracker/static/css/main.be2938bf.css.map",
+    "main.8c8b856d.css.map": "/scrim-tracker/static/css/main.8c8b856d.css.map",
     "main.4d46c137.js.map": "/scrim-tracker/static/js/main.4d46c137.js.map"
   },
   "entrypoints": [
-    "static/css/main.be2938bf.css",
+    "static/css/main.8c8b856d.css",
     "static/js/main.4d46c137.js"
   ]
 }
