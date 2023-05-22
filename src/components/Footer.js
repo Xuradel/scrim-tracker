@@ -3,7 +3,7 @@ const Footer = () => {
         <div class="footer">
             <div class="contain">
                 <div class="col">
-                    <img src={require("../images/tracking.png")} className="footer-logo"></img>
+                    <img src={require("../images/logo.png")} className="footer-logo"></img>
                 </div>
                 <div class="col">
                     <h1>Company</h1>

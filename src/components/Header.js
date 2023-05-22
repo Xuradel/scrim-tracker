@@ -44,7 +44,11 @@ const Header = () => {
     return (
 
         <header className='navbar'>
+            <div className='logo-section'>
             <img src={require("../images/logo.png")} alt="logo" id="logo"></img>
+            <h3>LEAGUE STATS PRO</h3>
+            </div>
+            
             <nav>
                 <ul className="nav-menu">
                     <li className='nav-item'><a href="#featuresPage" className='nav-link' onClick={handleClick("features")}>Features</a></li>
