@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/scrim-tracker/static/css/main.1814c8be.css",
-    "main.js": "/scrim-tracker/static/js/main.8887c54a.js",
+    "main.css": "/scrim-tracker/static/css/main.f9f9ca77.css",
+    "main.js": "/scrim-tracker/static/js/main.621906ef.js",
     "static/media/logo.png": "/scrim-tracker/static/media/logo.33c63d434f2a752baf51.png",
     "static/media/champ.png": "/scrim-tracker/static/media/champ.4c2e61c0dcaa2f115d07.png",
     "static/media/faker.png": "/scrim-tracker/static/media/faker.fb7207027c6741298a18.png",
@@ -29,11 +29,11 @@
     "static/media/Louis George Cafe Light.ttf": "/scrim-tracker/static/media/Louis George Cafe Light.39945fcd312e86adc356.ttf",
     "static/media/saprissa.webp": "/scrim-tracker/static/media/saprissa.687b0202a59c61024ba4.webp",
     "index.html": "/scrim-tracker/index.html",
-    "main.1814c8be.css.map": "/scrim-tracker/static/css/main.1814c8be.css.map",
-    "main.8887c54a.js.map": "/scrim-tracker/static/js/main.8887c54a.js.map"
+    "main.f9f9ca77.css.map": "/scrim-tracker/static/css/main.f9f9ca77.css.map",
+    "main.621906ef.js.map": "/scrim-tracker/static/js/main.621906ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.1814c8be.css",
-    "static/js/main.8887c54a.js"
+    "static/css/main.f9f9ca77.css",
+    "static/js/main.621906ef.js"
   ]
 }
