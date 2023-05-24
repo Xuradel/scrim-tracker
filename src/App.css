@@ -279,108 +279,24 @@ header a {
 
   /* Footer CSS */
   .footer {
-    width: 100%;
-    position: relative;
-    height: auto;
     background-color: #151315;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    padding: 2rem 0;
   }
   .footer-logo{
     padding-top: 1rem;
     width: 3rem;
     height: auto;
   }
-  .footer .col {
-    width: 190px;
-    height: auto;
-    float: left;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    padding: 0px 20px 20px 20px;
-  }
-  .footer .col h1 {
-    margin: 0;
-    padding: 0;
-    font-family: inherit;
-    font-size: 12px;
-    line-height: 17px;
-    padding: 20px 0px 5px 0px;
-    color: #E9872F;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 0.250em;
-  }
-  .footer .col ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  .footer .col ul li {
-    color: white;
-    font-size: 14px;
-    font-family: inherit;
-    font-weight: bold;
-    padding: 5px 0px 5px 0px;
-    cursor: pointer;
-    transition: .2s;
-    -webkit-transition: .2s;
-    -moz-transition: .2s;
-  }
-  .social ul li {
-    display: inline-block;
-    padding-right: 5px !important;
-  }
-  
-  .footer .col ul li:hover {
-    color: #ffffff;
-    transition: .1s;
-    -webkit-transition: .1s;
-    -moz-transition: .1s;
-  }
-  .clearfix {
-    clear: both;
-  }
-  @media only screen and (min-width: 1280px) {
-    .contain {
-      width: 1200px;
-      margin: 0 auto;
-    }
-  }
-  @media only screen and (max-width: 1139px) {
-    .contain .social {
-      width: 1000px;
-      display: block;
-    }
-    .social h1 {
-      margin: 0px;
-    }
-  }
-  @media only screen and (max-width: 950px) {
-    .footer .col {
-      width: 33%;
-    }
-    .footer .col h1 {
-      font-size: 14px;
-    }
-    .footer .col ul li {
-      font-size: 13px;
-    }
-  }
-  @media only screen and (max-width: 500px) {
-      .footer .col {
-        width: 50%;
-      }
-      .footer .col h1 {
-        font-size: 14px;
-      }
-      .footer .col ul li {
-        font-size: 13px;
-      }
-  }
-  @media only screen and (max-width: 340px) {
-    .footer .col {
-      width: 100%;
-    }
+
+  .footer-text-section{
+    width: 40%;
+    color:white;
+    font-family: 'sourceSansLight';
+    text-align: justify;
   }
 
   .features-1{
@@ -921,105 +837,27 @@ header a {
 
     /* Footer CSS */
     .footer {
-      width: 100%;
-      position: relative;
-      height: auto;
       background-color: #151315;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap:2rem;
+      padding: 2rem 0;
     }
     .footer-logo{
       padding-top: 1rem;
       width: 3rem;
       height: auto;
     }
-    .footer .col {
-      width: 190px;
-      height: auto;
-      float: left;
-      box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      padding: 0px 20px 20px 20px;
-    }
-    .footer .col h1 {
-      margin: 0;
-      padding: 0;
-      font-family: inherit;
-      font-size: 12px;
-      line-height: 17px;
-      padding: 20px 0px 5px 0px;
-      color: #E9872F;
-      font-weight: normal;
-      text-transform: uppercase;
-      letter-spacing: 0.250em;
-    }
-    .footer .col ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    .footer .col ul li {
-      color: white;
-      font-size: 14px;
-      font-family: inherit;
-      font-weight: bold;
-      padding: 5px 0px 5px 0px;
-      cursor: pointer;
-      transition: .2s;
-      -webkit-transition: .2s;
-      -moz-transition: .2s;
+    .footer-text-section{
+      width: 60%;
+      color:white;
+      font-family: 'sourceSansLight';
+      text-align: justify;
     }
     
-    .footer .col ul li:hover {
-      color: #ffffff;
-      transition: .1s;
-      -webkit-transition: .1s;
-      -moz-transition: .1s;
-    }
-    .clearfix {
-      clear: both;
-    }
-    @media only screen and (min-width: 1280px) {
-      .contain {
-        width: 1200px;
-        margin: 0 auto;
-      }
-    }
-    @media only screen and (max-width: 1139px) {
-      .contain .social {
-        width: 1000px;
-        display: block;
-      }
-      .social h1 {
-        margin: 0px;
-      }
-    }
-    @media only screen and (max-width: 950px) {
-      .footer .col {
-        width: 33%;
-      }
-      .footer .col h1 {
-        font-size: 14px;
-      }
-      .footer .col ul li {
-        font-size: 13px;
-      }
-    }
-    @media only screen and (max-width: 500px) {
-        .footer .col {
-          width: 50%;
-        }
-        .footer .col h1 {
-          font-size: 14px;
-        }
-        .footer .col ul li {
-          font-size: 13px;
-        }
-    }
-    @media only screen and (max-width: 340px) {
-      .footer .col {
-        width: 100%;
-      }
-    }
+    
     .features-1{
       display: flex;
       justify-content: center;
@@ -1101,11 +939,11 @@ header a {
     .reviews-container{
       display: flex;
       flex-direction: column;
-      margin-top: 14rem;
+      margin-top: 18rem;
       margin-bottom: 14rem;
     }
     .card2 {
-      width: 20rem;
+      width: 18rem;
       background: #151315;
       padding: 2rem 1.5rem;
       transition: box-shadow .3s ease, transform .2s ease;
@@ -1171,7 +1009,7 @@ header a {
       align-items: center;
       width: 99%;
       height: 100vh;
-      padding-bottom: 8rem;
+      padding-bottom: 10rem;
      }  
   
      @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
