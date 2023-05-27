@@ -547,14 +547,17 @@ details summary{
 .confirmation{transition: all 1s;color: #E9872F;}
 .errorMessage{color:rgb(255, 255, 255); font-family: "sourceSansBold"; font-size: .9rem;}
 
-
+.test1 span{font-size: 1.7rem;}
 
 /* ---------------- Media Queries for Mobile settings ------------ */
 
 @media only screen and (max-width: 1280px) {
+  .quantity{color: white;}
+  .text{color: white;}
   .contact-section{
     flex-direction: column;
   }
+  .test1 span{color: white; font-size: 1.5rem;}
 /* Header */
 header {
   height: 10vh;
@@ -1095,7 +1098,7 @@ header a {
   width: 100%;
   position: absolute;
 }
-
+@media only screen and (max-width: 1500px){.main-h{font-size: 5rem;}}
 @media only screen and (max-width: 800px)and (min-width: 800px) {.main-h{font-size: 4.5rem;}}
 @media (max-height: 1050px)and (min-width: 600px){.main-h{font-size: 4.4rem}
   .quantity{font-size: 1.5rem;}.logos{width: 2rem;}.text{font-size: 1.5rem;}}
