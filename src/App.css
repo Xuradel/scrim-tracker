@@ -1118,3 +1118,6 @@ header a {
     .features1-inside h2{font-size: 1.3rem;}.features1-item p{font-size: 1rem;}.features2-section{margin-bottom:22rem;}
     .reviews-container{margin-bottom: 22rem;}
   }
+ @media (min-width: 400px){
+.main-h{font-size: 3rem;}
+ }
